@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Thu, 13 Oct 2022 22:03:03 +0200
+Source: osmo-bts
+Binary: osmo-bts osmo-bts-dbgsym
+Architecture: amd64
+Version: 1.5.0+dfsg1-2
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian Mobcom Maintainers <Debian-mobcom-maintainers@lists.alioth.debian.org>
+Changed-By: Thorsten Alteholz <debian@alteholz.de>
+Description:
+ osmo-bts   - Base Transceiver Station for GSM
+Changes:
+ osmo-bts (1.5.0+dfsg1-2) unstable; urgency=medium
+ .
+   * New upstream release.
+Checksums-Sha1:
+ c078d2a443b6c84108bc292d8b073f569e2dbf24 1574048 osmo-bts-dbgsym_1.5.0+dfsg1-2_amd64.deb
+ c5de7ea9fdcf5e4d4f9a0c8d8ccfb1ef2a20d351 6506 osmo-bts_1.5.0+dfsg1-2_amd64.buildinfo
+ e03136a3d3225c0a55a7b4e9d1ecb4c05b33a151 276320 osmo-bts_1.5.0+dfsg1-2_amd64.deb
+Checksums-Sha256:
+ 9d0257da4e9caaa0f8cb6cc0310de7f46f1794af6f99e755c2f6b9957dd2e088 1574048 osmo-bts-dbgsym_1.5.0+dfsg1-2_amd64.deb
+ 5cfad6d24fc33d4acc231ee5514b0a172cacc268e7c972432d33975baddbf9b3 6506 osmo-bts_1.5.0+dfsg1-2_amd64.buildinfo
+ 38b52c9cb7723e2cf48be6d0bc394073106f034e9e7da9c46f8f905e2b27776a 276320 osmo-bts_1.5.0+dfsg1-2_amd64.deb
+Files:
+ a5567eccb045b7d283977bf5c877f871 1574048 debug optional osmo-bts-dbgsym_1.5.0+dfsg1-2_amd64.deb
+ 0d8d8ce5d613489b9e17b0efb8f0f24f 6506 net optional osmo-bts_1.5.0+dfsg1-2_amd64.buildinfo
+ 544472c6a16539d68c070dc8ff156226 276320 net optional osmo-bts_1.5.0+dfsg1-2_amd64.deb
